@@ -1,10 +1,13 @@
 #Basic Requirement:
 Window 10 or above
 Java 8 or above
+Admin rights on system
 Developer mode should be on | Settings > For developers
 Java, Maven
-Windows Kits https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
-WinAppDriver https://github.com/Microsoft/WinAppDriver
+Windows Kits    |   https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+WinAppDriver    |   https://github.com/Microsoft/WinAppDriver/releases
+
+
 
 #Steps:
 1. Double click WinAppDriver.exe located at C:\Program Files (x86)\Windows Application Driver
@@ -32,8 +35,6 @@ https://github.com/Microsoft/WinAppDriver/tree/master/Tests/WebDriverAPI
 https://github.com/Microsoft/WinAppDriver/issues/165
 https://github.com/Microsoft/WinAppDriver/issues/240
 https://github.com/Microsoft/WinAppDriver/issues
-setup | https://automatetheplanet.com/automate-windows-desktop-apps-winappdriver/
-screenshot | https://automatetheplanet.com/build-browser-extension-full-page-screenshots/
 window 10 sdk | https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
 
 

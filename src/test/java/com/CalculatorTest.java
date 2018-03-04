@@ -135,9 +135,10 @@ public class CalculatorTest {
         driver.findElementByAccessibilityId("num1Button").click();
         driver.findElementByXPath("//Button[@Name='Plus']").click();
         driver.findElementByXPath("//Button[@Name='One']").click();
+        driver.findElementByName("Equals").click();
+        Assert.assertEquals("2", CalculatorResult.getText().replace("Display is", "").trim());
     }
 
-    //BeforeMethod should not be run for this test
     @Test
     public void Menu() throws InterruptedException {
 

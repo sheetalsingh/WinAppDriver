@@ -33,7 +33,7 @@ public class NotepadTest {
 
     @Test
     public void testNotepad(){
-        driver.findElementByClassName("Edit").sendKeys("Hello WinAppDriver!!");
+        driver.findElementByClassName("Edit").sendKeys("Hello Friends, This is WinAppDriver!!");
     }
 
 
